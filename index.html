@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- ICONES-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- SCROLL REVEAL-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <title>Bessantoy</title>
+</head>
+<body onload="startTimer()">
+
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav_logo">Bessantoy</a>
+            </div>
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="#accueil" class="nav_link active">Accueil</a></li>
+                    <li class="nav_item"><a href="#APropos" class="nav_link">A propos</a></li>
+                    <li class="nav_item"><a href="#competences" class="nav_link">Competences</a></li>
+                    <li class="nav_item"><a href="#projets" class="nav_link">Projets</a></li>
+                    <li class="nav_item"><a href="#contact" class="nav_link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav_toggle" id="nav-toggle">
+                <i class="bx bx-menu"></i>
+                
+            </div>
+        </nav>
+
+    </header>
+
+    <main class="1-main">
+
+        <section class="accueil bd-grid" id="accueil">
+            <div class="accueil_data">
+                <h1 class="accueil_title">Bienvenue ! <br>Je suis <span class="accueil_title-color">Anthony</span>, </br>Etudiant en informatique</span> </h1>
+                <a href="#contact" class="button">Contactez moi</a>
+            </div>
+            <div class="accueil_social">
+                <a href="https://www.linkedin.com/in/anthony-bessieres-a8a628237/" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin accueil_social-icon'></i></a>
+                <a href="https://github.com/bessantoy"  target="_blank" rel="noopener noreferrer" ><i class='bx bxl-github accueil_social-icon' ></i></a>
+            </div>
+            <div class="accueil_img">
+                <img id="accueil_image" src="IMG/greetings.png" alt="my avatar">
+            </div>
+        </section>
+
+        <section class="APropos section" id="APropos">
+            <h2 class="section-title">A propos</h2>
+
+            <div class="Apropos_container bd-grid">
+                <div class="APropos_img">
+                    <img src="IMG/profile.png" alt="my avatar">
+                </div>
+                <div>
+                    <h2 class="APropos_subtitle">BESSIERES Anthony</h2>
+                    <p class="APropos_text">Après avoir obtenu un baccalauréat scientifique en 2019, j'ai décidé d'aller étudier à l'université d'Angers en licence MPCIE (mathématiques, physique, chimie, informatique, economie). Je me suis très rapidement orienté vers l'informatique car c'est un domaine qui m'a toujours enormément intéréssé. J'ai donc validé ma licence informatique en 2022 et je suis actuellement en poursuite d'études.</p>
+                    <a download href="FILES/BESSIERES_CV.pdf" class="button" id="CVDownload">Télécharger le CV <i class='bx bx-download'></i></a>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="competences section" id="competences">
+
+            <h2 class="section-title">Compétences</h2>
+            <div class="competences_container bd-grid">
+                <div class="competences_devweb">
+                    <h2 class="competences_subtitle"><i class='bx bx-devices competences_icons'></i><br/>Developpement Web</h2>
+                    <p class="competences_1st">Création de sites "responsives" et animés <br/> <i class='bx bxl-html5 competences_icons' ></i><i class='bx bxs-file-css competences_icons' ></i><i class='bx bxl-javascript competences_icons' ></i><i class='bx bxl-php competences_icons' ></i></p>
+                    
+                    <p class="competences_2nd">Gestion des bases de données <br/> <i class='bx bxl-postgresql competences_icons' ></i><i class='bx bxs-data competences_icons'></i></p>
+                    <p class="competences_3rd">Prise en main de React<br/><i class='bx bxl-react competences_icons' ></i></p>
+                </div>
+                <div class="competences_prog">
+                    <h2 class="competences_subtitle"><i class='bx bx-code-curly competences_icons'></i><br/>Programmation</h2>
+                    <p class="competences_1st">Programmation orienté objet<br/><i class='bx bxl-c-plus-plus competences_icons' ></i> <i class='bx bxl-java competences_icons' ></i></p>
+                    <p class="competences_2nd">Algorithmique, traitement de données <br/> <i class='bx bxl-python competences_icons' ></i></p>
+                </div>
+                <div class="competences_environnement">
+                    <h2 class="competences_subtitle"><i class='bx bx-laptop competences_icons'></i><br/>Environnement et outils</h2>
+                    <p class="competences_1st">Environnements de travail<br/><i class='bx bxl-windows competences_icons' ></i> <i class='bx bxl-tux competences_icons' ></i></p>
+                    <p class="competences_2nd">outils pris en main<br/> <i class='bx bxl-visual-studio competences_icons' ></i> <i class='bx bx-terminal competences_icons' ></i> <i class='bx bxl-github competences_icons' ></i></p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="projets section" id="projets">
+
+        <div class="inter_img" >
+            <img src="IMG/going to work happy.png" alt="going to work happy">
+        </div>
+            <h2 class="section-title">Projets</h2>
+            <div class="projets_container bd-grid">
+
+                <div class="project_cards">
+                    <ul class="cards">
+                        <li class="cards_item">
+                            <div class="card">
+                                <div class="card_image">
+                                    <img src="IMG/VWScreenshot.png"/>
+                                </div>
+                                <div class="card_content">
+                                    <h2 class="card_title">
+                                        ViewCalendar
+                                    </h2>
+                                    <p>ViewCalendar est un visualiseur d'emplois du temps. Il génère des évenements à partir de données fournies en XML. Cette application propose differentes visualisations ainsi que des options de filtrage, de statistiques et de coloration.</p>
+                                    <a href="https://bessantoy.github.io/Calendar-viewer" target="_blank" rel="noopener noreferrer" class="btn card_btn">Visiter</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards_item">
+                            <div class="card">
+                                <div class="card_image">
+                                    <img src="IMG/jeu_de_dames.png"/>
+                                </div>
+                                <div class="card_content">
+                                    <h2 class="card_title">
+                                        Jeu de dames
+                                    </h2>
+                                    <p>Jeu de dames réalisé en C++ lors de ma licence à l'université d'Angers. Le jeu se joue à deux et propose des options de sauvegarde et de chargement de partie. </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cards_item">
+                            <div class="card">
+                                <div class="card_image">
+                                    <img src="IMG/cone.png"/>
+                                </div>
+                                <div class="card_content">
+                                    <h2 class="card_title">
+                                        En attente d'autres projets
+                                    </h2>
+                                    <p>D'autres projets sont en cours de développement et seront ajoutés sur le site d'ici peu !</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+        </section>
+        <section class="contact section" id="contact">
+
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact_container bd-grid">
+                <form action="https://formsubmit.co/bessantoy.contact@gmail.com" method="POST" class="contact_form">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/succesPage.html">
+                    <input type="hidden" name="_autoresponse" value="Merci de m'avoir contacté ! Je reviendrai vers vous dès que possible !">
+                    <input type="text" placeholder="Nom prénom" class="contact_input" name="name" required>
+                    <input type="mail" placeholder="Email" class="contact_input" name="email" required>
+                    <textarea cols="0" rows="10" class="contact_input" name="message" required></textarea>
+
+                    <button type="submit" class="contact_button button">Envoyer</button>
+                </form>
+            </div>
+            <div class="contact_img">
+                <img src="IMG/on_phone.png" alt="on my smartphone">
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p class="footer_title">Bessantoy</p>
+        <div class="footer_social">
+            <a class="footer_icon"><i class='bx bx-phone' ></i> 0782419192</a><br/>
+            <a class="footer_icon"><i class='bx bxs-envelope' ></i> bessantoy.contact@gmail.com</a>
+        </div>
+        <p>&#169; 2022 copyright tous droits réservés.</p>
+
+    </footer>
+
+
+    <script src="JS/main.js"></script>
+    
+</body>
+</html>
