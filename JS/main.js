@@ -87,3 +87,5 @@ function startTimer() {
 }
 
 var x = 0;
+
+startTimer();
