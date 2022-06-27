@@ -244,7 +244,7 @@ img{
       }
 
       50%{
-        bottom: 0;
+        bottom: -2rem;
       }
 
       100% {
@@ -636,6 +636,20 @@ img{
     .contact_container{
         justify-items: center;
     }
+
+    @keyframes run  {
+        0% {
+            bottom: -30rem;
+          }
+    
+          50%{
+            bottom: 0;
+          }
+    
+          100% {
+            bottom: -30rem;  
+              
+          }
 
     
 }
